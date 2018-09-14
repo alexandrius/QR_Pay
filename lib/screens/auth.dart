@@ -26,7 +26,7 @@ class _AuthState extends State<Auth> {
                   onPressed: () {
                     Navigator.push(
                         context,
-                    MaterialPageRoute(builder: (context) => MyHomePage(title: 'ავტორიზაცია')));
+                    MaterialPageRoute(builder: (context) => Login(title: 'ავტორიზაცია')));
                   },
                 ),
                 OutlineButton(child: Text("რეგისტრაცია"), onPressed: () {}),
