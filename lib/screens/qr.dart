@@ -1,11 +1,19 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:barcode_scan/barcode_scan.dart';
+import 'package:share/share.dart';
 
 
 class QR extends StatefulWidget {
+  final bool isSend;
+
+  QR({Key key, this.isSend}) : super(key: key);
+
   @override
   State<StatefulWidget> createState() {
-    return new _QRState();
+    return _QRState(isSend: isSend);
   }
 }
 
@@ -15,6 +23,10 @@ class _QRState extends State<QR> {
   String url;
   String phone;
   FocusNode focusNode = new FocusNode();
+  String barcode;
+  bool isSend;
+
+  _QRState({this.isSend});
 
   @override
   void initState() {
@@ -38,57 +50,71 @@ class _QRState extends State<QR> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        appBar: AppBar(
-          title: Text('QR კოდი'),
-        ),
-        body: Container(
-          padding: EdgeInsets.all(20.0),
-          child: Stack(
+    return Container(
+      padding: EdgeInsets.all(20.0),
+      child: Stack(
+        children: [
+          Column(
             children: [
-              Column(
-                children: [
-                  TextFormField(
-                    keyboardType: TextInputType.numberWithOptions(decimal: true),
-                    controller: moneyInputController,
-                    focusNode: focusNode,
-                    decoration: InputDecoration(
-                      labelText: "თანხა",
-                    ),
-                  ),
-                  SizedBox(
-                    height: 20.0,
-                  ),
-                  MaterialButton(
-                      child: Text('QR გენერირება'),
-                      onPressed: () {
-                        setState(() {
-                          if (moneyInputController.text.length > 0) {
-                            focusNode.unfocus();
-                            url = base_url + 'acct' + moneyInputController.text + ':GE22BG0000' + phone;
-                          }
-                        });
-                      }),
-                  SizedBox(
-                    height: 20.0,
-                  ),
-                  _drawQr()
-                ],
+              TextFormField(
+                keyboardType: TextInputType.numberWithOptions(decimal: true),
+                controller: moneyInputController,
+                focusNode: focusNode,
+                decoration: InputDecoration(
+                  labelText: "თანხა",
+                ),
               ),
-              Column(
-                mainAxisAlignment: MainAxisAlignment.end,
-                children: [
+              SizedBox(
+                height: 20.0,
+              ),
+              MaterialButton(
+                  child: Text('QR გენერირება'),
+                  onPressed: () {
+                    setState(() {
+                      if (moneyInputController.text.length > 0) {
+                        focusNode.unfocus();
+                        final type = isSend ? 'send:' : 'receive:';
+                        url = base_url + type + moneyInputController.text + ':GE22BG0000' + phone;
+                      }
+                    });
+                  }),
+              SizedBox(
+                height: 20.0,
+              ),
+              _drawQr()
+            ],
+          ),
+          Column(
+            mainAxisAlignment: MainAxisAlignment.end,
+            children: [
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: <Widget>[
                   MaterialButton(
-                    child: Text('სკანერი'),
-                    onPressed: () {
-
-                    },
-                  )
+                      child: Text('სკანერი'),
+                      onPressed: () {
+                        scan();
+                      }),
+                  MaterialButton(
+                      child: Text('გაზიარება'),
+                      onPressed: () {
+                        Share.share(url);
+                      }),
                 ],
               )
             ],
-          ),
-        ));
+          )
+        ],
+      ),
+    );
+  }
+
+  Future scan() async {
+    try {
+      String barcode = await BarcodeScanner.scan();
+      setState(() => this.barcode = barcode);
+      print(barcode);
+    } catch (e) {}
   }
 
   _drawQr() {

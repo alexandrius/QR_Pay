@@ -21,6 +21,7 @@ dependencies:
   cupertino_icons: ^0.1.2
   shared_preferences: ^0.4.2
   barcode_scan: ^0.0.7
+  share: ^0.5.3
 
 
 dev_dependencies:

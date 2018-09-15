@@ -10,25 +10,19 @@ class ManageMoney extends StatefulWidget {
 class _ManageMoneyState extends State<ManageMoney> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(),
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          ConstrainedBox(
-            constraints: BoxConstraints(minWidth: double.infinity),
-            child: RaisedButton(child: Text('გადარიცხვა'), onPressed: () {
-//              Navigator.push(context, MaterialPageRoute(builder: (context) => QR()));
-            }),
+    return new DefaultTabController(
+        length: 2,
+        child: Scaffold(
+          appBar: AppBar(
+            bottom: new TabBar(
+              labelColor: Colors.white,
+              tabs: [
+                new Tab(text: "მიღება"),
+                new Tab(text: "გადარიცხვა")
+              ],
+            ),
           ),
-          ConstrainedBox(
-            constraints: BoxConstraints(minWidth: double.infinity),
-            child: RaisedButton(child: Text('მიღება'), onPressed: () {
-              Navigator.push(context, MaterialPageRoute(builder: (context) => QR()));
-            }),
-          )
-        ],
-      ),
-    );
+          body: TabBarView(children: [QR(isSend: true), QR(isSend: false)]),
+        ));
   }
 }
