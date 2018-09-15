@@ -1,18 +1,17 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
-class Login extends StatefulWidget {
-  Login({Key key, this.title}) : super(key: key);
+class Passcode extends StatefulWidget {
+  Passcode({Key key, this.title}) : super(key: key);
 
   final String title;
 
   @override
-  _LoginState createState() => new _LoginState();
+  _PasscodeState createState() => new _PasscodeState();
 }
 
-class _LoginState extends State<Login> {
+class _PasscodeState extends State<Passcode> {
   var waitsForSMS = false;
   var _animatedHeight = 0.0;
   var loading = false;
@@ -21,6 +20,7 @@ class _LoginState extends State<Login> {
 
   @override
   void initState() {
+
     phoneController = TextEditingController()
       ..addListener(() {
         if (phoneController.text.length == 9) {
@@ -46,19 +46,10 @@ class _LoginState extends State<Login> {
         if (smsController.text.length == 4) {
           setState(() {
             loading = true;
-            Timer(const Duration(milliseconds: 1000), () {
-              setLoggedIn();
-              Navigator.push(context, MaterialPageRoute(builder: (context) => Login(title: 'ავტორიზაცია')));
-            });
           });
         }
       });
     super.initState();
-  }
-
-  setLoggedIn() async {
-    final prefs = await SharedPreferences.getInstance();
-    await prefs.setBool('isLoggedIn', true);
   }
 
   @override
