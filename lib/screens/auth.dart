@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:qr_pay/screens/cardList.dart';
 import 'package:qr_pay/screens/login.dart';
 import 'package:qr_pay/screens/qr.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -16,7 +17,7 @@ class _AuthState extends State<Auth> {
   checkLoggedIn() async {
     final prefs = await SharedPreferences.getInstance();
     if (prefs.getBool('isLoggedIn')) {
-      Navigator.push(context, MaterialPageRoute(builder: (context) => QR()));
+      Navigator.push(context, MaterialPageRoute(builder: (context) => CardList()));
     }
   }
 

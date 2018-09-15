@@ -23,6 +23,7 @@ dependencies:
   barcode_scan: ^0.0.7
   share: ^0.5.3
   flutter_masked_text: ^0.6.0
+  flutter_swiper : ^1.0.6
 
 
 dev_dependencies:
@@ -42,9 +43,10 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #  - images/a_dot_burr.jpeg
-  #  - images/a_dot_ham.jpeg
+  assets:
+    - icon_mc.png
+    - icon_visa.png
+    - bagger.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.

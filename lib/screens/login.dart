@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:math';
 import 'package:flutter/material.dart';
+import 'package:qr_pay/screens/cardList.dart';
 import 'package:qr_pay/screens/manageMoney.dart';
 import 'package:qr_pay/screens/qr.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -70,7 +71,7 @@ class _LoginState extends State<Login> {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setBool('isLoggedIn', true);
     await prefs.setString('phone', phoneController.text);
-    Navigator.push(context, MaterialPageRoute(builder: (context) => ManageMoney()));
+    Navigator.push(context, MaterialPageRoute(builder: (context) => CardList()));
   }
 
   @override
