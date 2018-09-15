@@ -22,6 +22,7 @@ dependencies:
   shared_preferences: ^0.4.2
   barcode_scan: ^0.0.7
   share: ^0.5.3
+  flutter_masked_text: ^0.6.0
 
 
 dev_dependencies:

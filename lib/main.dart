@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:qr_pay/screens/addCard.dart';
 import 'package:qr_pay/screens/auth.dart';
 
 void main() => runApp(new MyApp());
@@ -20,7 +21,8 @@ class MyApp extends StatelessWidget {
         // counter didn't reset back to zero; the application is not restarted.
         primarySwatch: Colors.deepPurple,
       ),
-      home: new Auth(),
+      home: AddCard()
+//      Auth(),
     );
   }
 }
