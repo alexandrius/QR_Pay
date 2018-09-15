@@ -1,6 +1,8 @@
 import 'dart:async';
-
+import 'dart:math';
 import 'package:flutter/material.dart';
+import 'package:qr_pay/screens/manageMoney.dart';
+import 'package:qr_pay/screens/qr.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class Login extends StatefulWidget {
@@ -18,12 +20,18 @@ class _LoginState extends State<Login> {
   var loading = false;
   TextEditingController phoneController;
   TextEditingController smsController;
+  bool phoneControllerExecutedCommand;
+  bool smsControllerExecutedCommand;
 
   @override
   void initState() {
+    phoneControllerExecutedCommand = false;
+    smsControllerExecutedCommand = false;
+
     phoneController = TextEditingController()
       ..addListener(() {
-        if (phoneController.text.length == 9) {
+        if (phoneController.text.length == 9 && !phoneControllerExecutedCommand) {
+          phoneControllerExecutedCommand = true;
           setState(() {
             waitsForSMS = true;
             _animatedHeight = 80.0;
@@ -31,7 +39,8 @@ class _LoginState extends State<Login> {
 
           Timer(const Duration(milliseconds: 500), () {
             setState(() {
-              smsController.text = "8350";
+              var rng = new Random();
+              smsController.text = rng.nextInt(9999).toString();
             });
           });
         } else {
@@ -41,14 +50,15 @@ class _LoginState extends State<Login> {
           });
         }
       });
+
     smsController = TextEditingController()
       ..addListener(() {
-        if (smsController.text.length == 4) {
+        if (smsController.text.length == 4 && !smsControllerExecutedCommand) {
+          smsControllerExecutedCommand = true;
           setState(() {
             loading = true;
             Timer(const Duration(milliseconds: 1000), () {
               setLoggedIn();
-              Navigator.push(context, MaterialPageRoute(builder: (context) => Login(title: 'ავტორიზაცია')));
             });
           });
         }
@@ -59,6 +69,8 @@ class _LoginState extends State<Login> {
   setLoggedIn() async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setBool('isLoggedIn', true);
+    await prefs.setString('phone', phoneController.text);
+    Navigator.push(context, MaterialPageRoute(builder: (context) => ManageMoney()));
   }
 
   @override
@@ -94,7 +106,9 @@ class _LoginState extends State<Login> {
                               constraints: const BoxConstraints(minWidth: double.infinity),
                               child: RaisedButton(
                                 child: Text('შემდეგი'),
-                                onPressed: () {},
+                                onPressed: () {
+
+                                },
                               ),
                             )
                           ],
