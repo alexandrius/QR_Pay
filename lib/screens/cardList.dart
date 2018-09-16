@@ -3,8 +3,9 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:qr_pay/screens/addCard.dart';
 import 'package:qr_pay/screens/manageMoney.dart';
-import 'package:qr_pay/screens/qr.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 import 'package:http/http.dart' as http;
+import 'package:qr_pay/tools/Keys.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class CardList extends StatefulWidget {
@@ -184,6 +185,15 @@ class _CardListState extends State<CardList> {
         'total': total
       });
 
+      Fluttertoast.showToast(
+          msg: "თანხა წარმატებით გადაირიცხა",
+          toastLength: Toast.LENGTH_SHORT,
+          gravity: ToastGravity.CENTER,
+          timeInSecForIos: 2,
+          bgcolor: "#e74c3c",
+          textcolor: '#ffffff'
+      );
+
       sendSms(amount);
     });
   }
@@ -204,7 +214,9 @@ class _CardListState extends State<CardList> {
   sendSms(String amount) async {
 
     Map data = {
-
+      //კლასი Keys არის დაიგნორირებული .gitignore-ში
+      'api_key' : Keys.api_key,
+      'api_secret': Keys.api_secret,
       'to': '995' + phone,
       'from': '4444',
       'text': 'SOLO: gadaxda: ' + amount + ' lari.'
