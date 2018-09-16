@@ -26,6 +26,8 @@ dependencies:
   flutter_swiper : ^1.0.6
   firebase_core: ^0.2.5
   cloud_firestore: ^0.8.0
+  http: 0.11.3+17
+
 
 
 dev_dependencies:
@@ -49,6 +51,59 @@ flutter:
     - icon_mc.png
     - icon_visa.png
     - bagger.png
+    - assets/anim/out0000.png
+    - assets/anim/out0001.png
+    - assets/anim/out0002.png
+    - assets/anim/out0003.png
+    - assets/anim/out0004.png
+    - assets/anim/out0005.png
+    - assets/anim/out0006.png
+    - assets/anim/out0007.png
+    - assets/anim/out0008.png
+    - assets/anim/out0009.png
+    - assets/anim/out00010.png
+    - assets/anim/out00011.png
+    - assets/anim/out00012.png
+    - assets/anim/out00013.png
+    - assets/anim/out00014.png
+    - assets/anim/out00015.png
+    - assets/anim/out00016.png
+    - assets/anim/out00017.png
+    - assets/anim/out00018.png
+    - assets/anim/out00019.png
+    - assets/anim/out00020.png
+    - assets/anim/out00021.png
+    - assets/anim/out00022.png
+    - assets/anim/out00023.png
+    - assets/anim/out00024.png
+    - assets/anim/out00025.png
+    - assets/anim/out00026.png
+    - assets/anim/out00027.png
+    - assets/anim/out00028.png
+    - assets/anim/out00029.png
+    - assets/anim/out00030.png
+    - assets/anim/out00040.png
+    - assets/anim/out00041.png
+    - assets/anim/out00042.png
+    - assets/anim/out00043.png
+    - assets/anim/out00044.png
+    - assets/anim/out00045.png
+    - assets/anim/out00046.png
+    - assets/anim/out00047.png
+    - assets/anim/out00048.png
+    - assets/anim/out00049.png
+    - assets/anim/out00050.png
+    - assets/anim/out00051.png
+    - assets/anim/out00052.png
+    - assets/anim/out00053.png
+    - assets/anim/out00054.png
+    - assets/anim/out00055.png
+    - assets/anim/out00056.png
+    - assets/anim/out00057.png
+    - assets/anim/out00058.png
+    - assets/anim/out00059.png
+    - assets/anim/out00060.png
+    - assets/anim/out00061.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.

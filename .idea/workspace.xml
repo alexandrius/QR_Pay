@@ -1,14 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="24d51b85-29de-40a0-bd0b-c7dc905256d8" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out0000.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out0001.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00010.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00011.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00012.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00013.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00014.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00015.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00016.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00017.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00018.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00019.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out0002.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00020.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00021.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00022.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00023.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00024.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00025.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00026.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00027.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00028.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00029.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out0003.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00030.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00031.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00032.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00033.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00034.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00035.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00036.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00037.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00038.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00039.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out0004.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00040.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00041.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00042.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00043.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00044.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00045.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00046.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00047.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00048.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00049.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out0005.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00050.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00051.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00052.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00053.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00054.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00055.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00056.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00057.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00058.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00059.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out0006.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00060.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00061.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out0007.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out0008.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out0009.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" afterPath="$PROJECT_DIR$/android/app/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/android/google-services.json" afterPath="$PROJECT_DIR$/android/app/google-services.json" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/auth.dart" afterPath="$PROJECT_DIR$/lib/screens/auth.dart" />
       <change beforePath="$PROJECT_DIR$/lib/screens/cardList.dart" afterPath="$PROJECT_DIR$/lib/screens/cardList.dart" />
       <change beforePath="$PROJECT_DIR$/lib/screens/login.dart" afterPath="$PROJECT_DIR$/lib/screens/login.dart" />
       <change beforePath="$PROJECT_DIR$/lib/screens/qr.dart" afterPath="$PROJECT_DIR$/lib/screens/qr.dart" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" afterPath="$PROJECT_DIR$/pubspec.lock" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" afterPath="$PROJECT_DIR$/pubspec.yaml" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -23,11 +87,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
+      <file leaf-file-name="cardList.dart" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/screens/cardList.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="43" column="28" lean-forward="false" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+            <state relative-caret-position="279">
+              <caret line="173" column="6" lean-forward="false" selection-start-line="173" selection-start-column="6" selection-end-line="173" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -44,18 +108,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>timer</find>
-      <find>mate</find>
-      <find>constraint</find>
-      <find>setLogged</find>
-      <find>smsController.text</find>
-      <find>sizedbox</find>
-      <find>buildsc</find>
-      <find>AnimatedSize</find>
-      <find>animated</find>
-      <find>duratio</find>
-      <find>()</find>
-      <find>Timer</find>
       <find>Mater</find>
       <find>ConstrainedBox</find>
       <find>Center</find>
@@ -74,6 +126,18 @@
       <find>kotlin</find>
       <find>qr</find>
       <find>scann</find>
+      <find>document</find>
+      <find>double</find>
+      <find>phone</find>
+      <find>sharedPref</find>
+      <find>initState</find>
+      <find>initSta</find>
+      <find>build</find>
+      <find>builda</find>
+      <find>stack</find>
+      <find>timer</find>
+      <find>se</find>
+      <find>sendSms</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -92,15 +156,15 @@
         <option value="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/ios/Runner/Info.plist" />
         <option value="$PROJECT_DIR$/lib/screens/manageMoney.dart" />
-        <option value="$PROJECT_DIR$/lib/main.dart" />
         <option value="$PROJECT_DIR$/lib/screens/addCard.dart" />
         <option value="$PROJECT_DIR$/android/build.gradle" />
-        <option value="$PROJECT_DIR$/lib/screens/login.dart" />
         <option value="$PROJECT_DIR$/lib/screens/auth.dart" />
-        <option value="$PROJECT_DIR$/lib/screens/qr.dart" />
-        <option value="$PROJECT_DIR$/pubspec.yaml" />
-        <option value="$PROJECT_DIR$/lib/screens/cardList.dart" />
         <option value="$PROJECT_DIR$/android/app/build.gradle" />
+        <option value="$PROJECT_DIR$/lib/screens/login.dart" />
+        <option value="$PROJECT_DIR$/lib/main.dart" />
+        <option value="$PROJECT_DIR$/pubspec.yaml" />
+        <option value="$PROJECT_DIR$/lib/screens/qr.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/cardList.dart" />
       </list>
     </option>
   </component>
@@ -185,7 +249,7 @@
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="show.migrate.to.gradle.popup" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="info.pl&#9;FILE&#9;file:///Users/alex/Documents/Development/qr_pay/ios/Runner/Info.plist" />
+    <property name="SearchEverywhereHistoryKey" value="pubs&#9;FILE&#9;file:///Users/alex/Documents/Development/qr_pay/pubspec.yaml&#10;card&#9;FILE&#9;file:///Users/alex/Documents/Development/qr_pay/lib/screens/cardList.dart&#10;login&#9;null&#9;null&#10;info.pl&#9;FILE&#9;file:///Users/alex/Documents/Development/qr_pay/ios/Runner/Info.plist" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
   </component>
@@ -195,6 +259,7 @@
       <recent name="$PROJECT_DIR$/assets" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/anim" />
       <recent name="$PROJECT_DIR$/android" />
       <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/lib/res" />
@@ -370,7 +435,21 @@
       <option name="project" value="LOCAL" />
       <updated>1537085877045</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Fix android build issues">
+      <created>1537088859604</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1537088859604</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Transfers working now">
+      <created>1537089674416</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1537089674416</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -383,14 +462,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1360" height="877" extended-state="6" />
+    <frame x="0" y="24" width="1360" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Dart Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938075" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Flutter Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938075" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -401,12 +481,12 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32806325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32806325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32806325" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938075" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Fabric" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -431,7 +511,9 @@
     <MESSAGE value="Add card input" />
     <MESSAGE value="Add card add option" />
     <MESSAGE value="Add firebase" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add firebase" />
+    <MESSAGE value="Fix android build issues" />
+    <MESSAGE value="Transfers working now" />
+    <option name="LAST_COMMIT_MESSAGE" value="Transfers working now" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -556,14 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../Flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences-0.4.2/lib/shared_preferences.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
@@ -580,16 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/screens/qr.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-908">
-          <caret line="21" column="83" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="83" />
-          <folding>
-            <element signature="e#0#20#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -598,28 +662,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="43" column="28" lean-forward="false" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Flutter/packages/flutter/lib/src/widgets/text.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="229" column="14" lean-forward="false" selection-start-line="229" selection-start-column="14" selection-end-line="229" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/anim/out0000.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pubspec.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        <state relative-caret-position="427">
+          <caret line="53" column="27" lean-forward="true" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Flutter/packages/flutter/lib/src/services/asset_bundle.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="231" column="46" lean-forward="false" selection-start-line="231" selection-start-column="46" selection-end-line="231" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/anim/out00032.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/anim/out00031.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/qr.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2416">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/login.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="43" column="13" lean-forward="true" selection-start-line="38" selection-start-column="10" selection-end-line="43" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/screens/cardList.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="110" column="16" lean-forward="true" selection-start-line="110" selection-start-column="16" selection-end-line="110" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#48#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="43" column="28" lean-forward="false" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+        <state relative-caret-position="279">
+          <caret line="173" column="6" lean-forward="false" selection-start-line="173" selection-start-column="6" selection-end-line="173" selection-end-column="6" />
           <folding />
         </state>
       </provider>

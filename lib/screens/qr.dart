@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -17,7 +18,7 @@ class QR extends StatefulWidget {
   }
 }
 
-class _QRState extends State<QR> {
+class _QRState extends State<QR> with TickerProviderStateMixin {
   TextEditingController moneyInputController;
   String base_url = 'https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=';
   String url;
@@ -27,11 +28,18 @@ class _QRState extends State<QR> {
   bool isSend;
   String id;
   String amount = 'თანხა';
+  bool showAnim = false;
+
+  Animation<int> _animation;
+  AnimationController _controller;
 
   _QRState({this.isSend});
 
   @override
   void initState() {
+    _controller = new AnimationController(vsync: this, duration: const Duration(seconds: 5))..repeat();
+    _animation = new IntTween(begin: 1, end: 61).animate(_controller);
+
     _getPhone();
     _initiateFireStore();
     moneyInputController = TextEditingController();
@@ -59,9 +67,7 @@ class _QRState extends State<QR> {
         children: [
           Column(
             children: [
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: <Widget>[
+              Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: <Widget>[
                 SizedBox(
                   width: MediaQuery.of(context).size.width - 150,
                   child: TextFormField(
@@ -120,11 +126,14 @@ class _QRState extends State<QR> {
                 ],
               )
             ],
-          )
+          ),
+          _showAnimation()
         ],
       ),
     );
   }
+
+  bool skipOnce = true;
 
   _initiateFireStore() async {
     CollectionReference collection = Firestore.instance.collection('payments');
@@ -132,15 +141,43 @@ class _QRState extends State<QR> {
     await document.setData(<String, double>{'total': 0.0, 'added': 0.0});
     id = document.documentID;
 
-    document.snapshots().listen((data){
+    document.snapshots().listen((data) {
       var amount = data['total'];
+      if(skipOnce){
+        skipOnce = false;
+      }else{
+        showAnim = true;
+        Timer(const Duration(milliseconds: 4000), () {
+          setState(() {
+            showAnim = false;
+          });
+        });
+      }
+
       setState(() {
         this.amount = amount.toString() + '‎ ₾';
       });
-    });
 
+
+
+    });
   }
 
+  _showAnimation() {
+
+    print(showAnim);
+    if (!showAnim) return new SizedBox();
+
+    return new AnimatedBuilder(
+      animation: _animation,
+      builder: (BuildContext context, Widget child) {
+        return new Image.asset(
+          'assets/anim/out000${_animation.value}.png',
+          gaplessPlayback: true,
+        );
+      },
+    );
+  }
 
   Future scan() async {
     try {

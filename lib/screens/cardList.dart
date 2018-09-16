@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:qr_pay/screens/addCard.dart';
 import 'package:qr_pay/screens/manageMoney.dart';
 import 'package:qr_pay/screens/qr.dart';
+import 'package:http/http.dart' as http;
+import 'package:shared_preferences/shared_preferences.dart';
 
 class CardList extends StatefulWidget {
   static String cardNumber;
@@ -17,6 +19,14 @@ class CardList extends StatefulWidget {
 class _CardListState extends State<CardList> {
   var result = [];
   String barcode = '';
+  String phone;
+
+
+  @override
+  void initState() {
+    _getPhone();
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -109,6 +119,7 @@ class _CardListState extends State<CardList> {
                 )));
   }
 
+
   scan() async {
     try {
       String barcode = await BarcodeScanner.scan();
@@ -123,6 +134,12 @@ class _CardListState extends State<CardList> {
     } catch (e) {}
   }
 
+  _getPhone() async {
+    var prefs = await SharedPreferences.getInstance();
+    phone = prefs.getString('phone');
+
+  }
+
   _sendMoney(String amount, String account, String docId){
 
 
@@ -133,6 +150,8 @@ class _CardListState extends State<CardList> {
       Firestore.instance.document("/payments/$docId").setData(<String, double>{
         'total': total
       });
+
+      sendSms(amount);
     });
   }
 
@@ -146,6 +165,23 @@ class _CardListState extends State<CardList> {
     }
 
     setState(() {
+    });
+  }
+
+  sendSms(String amount) async {
+
+    Map data = {
+
+      'to': '995' + phone,
+      'from': '4444',
+      'text': 'SOLO: gadaxda: ' + amount + ' lari.'
+    };
+
+    var url = 'https://rest.nexmo.com/sms/json';
+    http.post(url, body: data)
+        .then((response) {
+      print("Response status: ${response.statusCode}");
+      print("Response body: ${response.body}");
     });
   }
 }
