@@ -36,7 +36,7 @@ class _LoginState extends State<Login> {
             _animatedHeight = 80.0;
           });
 
-          Timer(const Duration(milliseconds: 500), () {
+          Timer(const Duration(milliseconds: 900), () {
             setState(() {
               var rng = new Random();
               smsController.text = rng.nextInt(9999).toString();
@@ -130,7 +130,6 @@ class _LoginState extends State<Login> {
         height: _animatedHeight,
         duration: Duration(milliseconds: 500),
         child: TextFormField(
-          maxLength: 4,
           controller: smsController,
           keyboardType: TextInputType.number,
           decoration: InputDecoration(

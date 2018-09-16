@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="24d51b85-29de-40a0-bd0b-c7dc905256d8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" afterPath="$PROJECT_DIR$/lib/main.dart" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/addCard.dart" afterPath="$PROJECT_DIR$/lib/screens/addCard.dart" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/auth.dart" afterPath="$PROJECT_DIR$/lib/screens/auth.dart" />
       <change beforePath="$PROJECT_DIR$/lib/screens/cardList.dart" afterPath="$PROJECT_DIR$/lib/screens/cardList.dart" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/login.dart" afterPath="$PROJECT_DIR$/lib/screens/login.dart" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -42,14 +46,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Mater</find>
-      <find>ConstrainedBox</find>
-      <find>Center</find>
-      <find>center</find>
-      <find>material</find>
-      <find>image</find>
-      <find>setState</find>
-      <find>this.bar</find>
       <find>send</find>
       <find>სკანნერ</find>
       <find>cardlist</find>
@@ -72,6 +68,14 @@
       <find>timer</find>
       <find>se</find>
       <find>sendSms</find>
+      <find>Constraintedb</find>
+      <find>box</find>
+      <find>maxLeng</find>
+      <find>focus</find>
+      <find>show</find>
+      <find>anima</find>
+      <find>_renderSmsInput</find>
+      <find>_animatedHeight</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -90,14 +94,14 @@
         <option value="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/ios/Runner/Info.plist" />
         <option value="$PROJECT_DIR$/lib/screens/manageMoney.dart" />
-        <option value="$PROJECT_DIR$/lib/screens/addCard.dart" />
         <option value="$PROJECT_DIR$/android/build.gradle" />
-        <option value="$PROJECT_DIR$/lib/screens/auth.dart" />
         <option value="$PROJECT_DIR$/android/app/build.gradle" />
-        <option value="$PROJECT_DIR$/lib/screens/login.dart" />
-        <option value="$PROJECT_DIR$/lib/main.dart" />
         <option value="$PROJECT_DIR$/pubspec.yaml" />
         <option value="$PROJECT_DIR$/lib/screens/qr.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/auth.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/login.dart" />
+        <option value="$PROJECT_DIR$/lib/main.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/addCard.dart" />
         <option value="$PROJECT_DIR$/lib/screens/cardList.dart" />
       </list>
     </option>
@@ -183,7 +187,7 @@
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="show.migrate.to.gradle.popup" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="pubs&#9;FILE&#9;file:///Users/alex/Documents/Development/qr_pay/pubspec.yaml&#10;card&#9;FILE&#9;file:///Users/alex/Documents/Development/qr_pay/lib/screens/cardList.dart&#10;login&#9;null&#9;null&#10;info.pl&#9;FILE&#9;file:///Users/alex/Documents/Development/qr_pay/ios/Runner/Info.plist" />
+    <property name="SearchEverywhereHistoryKey" value="login&#9;FILE&#9;file:///Users/alex/Documents/Development/qr_pay/lib/screens/login.dart&#10;pubs&#9;FILE&#9;file:///Users/alex/Documents/Development/qr_pay/pubspec.yaml&#10;card&#9;FILE&#9;file:///Users/alex/Documents/Development/qr_pay/lib/screens/cardList.dart&#10;info.pl&#9;FILE&#9;file:///Users/alex/Documents/Development/qr_pay/ios/Runner/Info.plist" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
   </component>
@@ -390,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537093617168</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add confirmation dialog">
+      <created>1537095193464</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1537095193464</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView">
@@ -455,7 +466,8 @@
     <MESSAGE value="Fix android build issues" />
     <MESSAGE value="Transfers working now" />
     <MESSAGE value="Add animation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add animation" />
+    <MESSAGE value="Add confirmation dialog" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add confirmation dialog" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -556,14 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/screens/addCard.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="132" column="81" lean-forward="false" selection-start-line="132" selection-start-column="81" selection-end-line="132" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android/app/google-services.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -584,14 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="55" column="7" lean-forward="false" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/screens/auth.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -617,16 +613,6 @@
         <state relative-caret-position="169">
           <caret line="229" column="14" lean-forward="false" selection-start-line="229" selection-start-column="14" selection-end-line="229" selection-end-column="14" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -669,10 +655,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="79" lean-forward="true" selection-start-line="21" selection-start-column="79" selection-end-line="21" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/addCard.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1126">
+          <caret line="38" column="55" lean-forward="true" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/screens/login.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="43" column="13" lean-forward="true" selection-start-line="38" selection-start-column="10" selection-end-line="43" selection-end-column="13" />
+        <state relative-caret-position="284">
+          <caret line="131" column="29" lean-forward="true" selection-start-line="131" selection-start-column="29" selection-end-line="131" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/auth.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
           <folding />
         </state>
       </provider>

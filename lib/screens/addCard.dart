@@ -36,7 +36,7 @@ class _AddCardState extends State<AddCard> {
       if (cardController.text.length > 0) {
         if (cardController.text.startsWith('5')) {
           currentIcon = masterCardIcon;
-        } else {
+        } else if(cardController.text.startsWith('4')){
           currentIcon = visaIcon;
         }
         setState(() {
@@ -125,7 +125,7 @@ class _AddCardState extends State<AddCard> {
         RaisedButton(
           child: Text('დამატება'),
           onPressed: () {
-            if (cardController.text.length > 0 && dateController.text.length > 0 && cvvController.text.length == 3) {
+            if (cardController.text.length == 19 && dateController.text.length > 0 && cvvController.text.length == 3) {
               setState(() {
                 showProgress = true;
               });
