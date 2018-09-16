@@ -16,7 +16,9 @@ class _AuthState extends State<Auth> {
 
   checkLoggedIn() async {
     final prefs = await SharedPreferences.getInstance();
-    if (prefs.getBool('isLoggedIn')) {
+    bool isLoggedIn = prefs.getBool('isLoggedIn');
+    if (isLoggedIn) {
+      Navigator.pop(context);
       Navigator.push(context, MaterialPageRoute(builder: (context) => CardList()));
     }
   }

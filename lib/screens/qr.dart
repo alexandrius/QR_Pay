@@ -26,6 +26,7 @@ class _QRState extends State<QR> {
   String barcode;
   bool isSend;
   String id;
+  String amount = 'თანხა';
 
   _QRState({this.isSend});
 
@@ -58,7 +59,9 @@ class _QRState extends State<QR> {
         children: [
           Column(
             children: [
-              Row(children: <Widget>[
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: <Widget>[
                 SizedBox(
                   width: MediaQuery.of(context).size.width - 150,
                   child: TextFormField(
@@ -70,16 +73,18 @@ class _QRState extends State<QR> {
                       )),
                 ),
                 Container(
-                  child: Card(
-                    color: Colors.green,
-                    shape: CircleBorder(),
-                    child: Container(
+                    child: Card(
+                  color: Colors.green,
+                  shape: CircleBorder(),
+                  child: Container(
                       padding: EdgeInsets.all(20.0),
-                        child:Center(
-                      child: Text('თანხა', style: TextStyle(color: Colors.white),),
-                    )),
-                  )
-                )
+                      child: Center(
+                        child: Text(
+                          amount,
+                          style: TextStyle(color: Colors.white),
+                        ),
+                      )),
+                ))
               ]),
               SizedBox(
                 height: 20.0,
@@ -122,11 +127,20 @@ class _QRState extends State<QR> {
   }
 
   _initiateFireStore() async {
-    CollectionReference collection = Firestore.instance.collection('payments/payments');
+    CollectionReference collection = Firestore.instance.collection('payments');
     final DocumentReference document = collection.document();
     await document.setData(<String, double>{'total': 0.0, 'added': 0.0});
     id = document.documentID;
+
+    document.snapshots().listen((data){
+      var amount = data['total'];
+      setState(() {
+        this.amount = amount.toString() + '‎ ₾';
+      });
+    });
+
   }
+
 
   Future scan() async {
     try {

@@ -71,6 +71,7 @@ class _LoginState extends State<Login> {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setBool('isLoggedIn', true);
     await prefs.setString('phone', phoneController.text);
+    Navigator.pop(context);
     Navigator.push(context, MaterialPageRoute(builder: (context) => CardList()));
   }
 

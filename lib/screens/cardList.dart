@@ -112,8 +112,16 @@ class _CardListState extends State<CardList> {
     try {
       String barcode = await BarcodeScanner.scan();
       setState(() => this.barcode = barcode);
-      print(barcode);
+      var split = this.barcode.split(':');
+      split.forEach((s){
+        print(s+'\n');
+      });
+
     } catch (e) {}
+  }
+
+  _listen(String amount, String account, String docId){
+
   }
 
   openAddCard() async {
