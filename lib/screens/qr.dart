@@ -157,10 +157,9 @@ class _QRState extends State<QR> with TickerProviderStateMixin {
       setState(() {
         this.amount = amount.toString() + '‎ ₾';
       });
-
-
-
     });
+
+
   }
 
   _showAnimation() {
