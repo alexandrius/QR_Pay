@@ -26,7 +26,7 @@ class _AuthState extends State<Auth> {
   build(context) {
     return new Scaffold(
         appBar: AppBar(
-          title: Text("QR Pay"),
+          title: Text("QR Tool"),
         ),
         body: Container(
             padding: EdgeInsets.all(30.0),
