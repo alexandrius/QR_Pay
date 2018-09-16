@@ -1,4 +1,5 @@
 import 'package:barcode_scan/barcode_scan.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:qr_pay/screens/addCard.dart';
 import 'package:qr_pay/screens/manageMoney.dart';
@@ -117,11 +118,22 @@ class _CardListState extends State<CardList> {
         print(s+'\n');
       });
 
+      _sendMoney(split[1], split[2], split[3]);
+
     } catch (e) {}
   }
 
-  _listen(String amount, String account, String docId){
+  _sendMoney(String amount, String account, String docId){
 
+
+    Firestore.instance.document("payments/$docId").get().then((data) {
+      double total = data['total'];
+      total += double.tryParse(amount);
+
+      Firestore.instance.document("/payments/$docId").setData(<String, double>{
+        'total': total
+      });
+    });
   }
 
   openAddCard() async {
