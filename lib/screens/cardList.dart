@@ -37,14 +37,12 @@ class _CardListState extends State<CardList> {
 
   buildOpacity() {
     if(result == null || result.length == 0){
-
       return Opacity(
         child: Center(
           child: Image.asset('bagger.png'),
         ),
         opacity: 0.7,
       );
-
     }
 
     return SizedBox();

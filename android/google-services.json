@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "283387849213",
+    "firebase_url": "https://bog-hackaton.firebaseio.com",
+    "project_id": "bog-hackaton",
+    "storage_bucket": "bog-hackaton.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283387849213:android:36d0d074085e5106",
+        "android_client_info": {
+          "package_name": "com.example.qrpay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "283387849213-k0h2b3goqlggr1otbg7j2n8cpvt7bu2u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXalTQ6qQCJnugy_cH8fwCfYbIwcCNzCo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
