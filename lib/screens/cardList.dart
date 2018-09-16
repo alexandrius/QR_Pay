@@ -129,7 +129,7 @@ class _CardListState extends State<CardList> {
         print(s+'\n');
       });
 
-      _sendMoney(split[1], split[2], split[3]);
+      _showConfirmationDialog(split[1], split[2], split[3]);
 
     } catch (e) {}
   }
@@ -138,6 +138,39 @@ class _CardListState extends State<CardList> {
     var prefs = await SharedPreferences.getInstance();
     phone = prefs.getString('phone');
 
+  }
+
+  _showConfirmationDialog(String amount, String account, String docId){
+    showDialog(
+        context: context,
+        builder: (BuildContext context) {
+          return AlertDialog(
+            title: Text('თანხის გადარიცხვა'),
+            content: SingleChildScrollView(
+              child: ListBody(
+                children: <Widget>[
+                  Text('გადასარიცხი თანხა: $amount ლარი')
+                ],
+              ),
+            ),
+            actions: <Widget>[
+              FlatButton(
+                child: Text('არა'),
+                onPressed: () {
+                  Navigator.of(context).pop();
+                },
+              ),
+              FlatButton(
+                child: Text('კი'),
+                onPressed: () {
+                  Navigator.of(context).pop();
+                  _sendMoney(amount, account, docId);
+                },
+              )
+            ],
+          );
+        }
+    );
   }
 
   _sendMoney(String amount, String account, String docId){

@@ -5,74 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24d51b85-29de-40a0-bd0b-c7dc905256d8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out0000.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out0001.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00010.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00011.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00012.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00013.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00014.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00015.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00016.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00017.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00018.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00019.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out0002.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00020.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00021.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00022.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00023.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00024.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00025.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00026.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00027.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00028.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00029.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out0003.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00030.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00031.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00032.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00033.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00034.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00035.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00036.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00037.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00038.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00039.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out0004.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00040.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00041.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00042.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00043.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00044.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00045.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00046.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00047.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00048.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00049.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out0005.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00050.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00051.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00052.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00053.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00054.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00055.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00056.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00057.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00058.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00059.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out0006.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00060.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out00061.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out0007.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out0008.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/anim/out0009.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/lib/screens/cardList.dart" afterPath="$PROJECT_DIR$/lib/screens/cardList.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/login.dart" afterPath="$PROJECT_DIR$/lib/screens/login.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/qr.dart" afterPath="$PROJECT_DIR$/lib/screens/qr.dart" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" afterPath="$PROJECT_DIR$/pubspec.lock" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" afterPath="$PROJECT_DIR$/pubspec.yaml" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -90,8 +24,8 @@
       <file leaf-file-name="cardList.dart" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/screens/cardList.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="173" column="6" lean-forward="false" selection-start-line="173" selection-start-column="6" selection-end-line="173" selection-end-column="6" />
+            <state relative-caret-position="209">
+              <caret line="206" column="6" lean-forward="false" selection-start-line="206" selection-start-column="6" selection-end-line="206" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -449,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537089674416</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add animation">
+      <created>1537093617168</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1537093617168</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -513,7 +454,8 @@
     <MESSAGE value="Add firebase" />
     <MESSAGE value="Fix android build issues" />
     <MESSAGE value="Transfers working now" />
-    <option name="LAST_COMMIT_MESSAGE" value="Transfers working now" />
+    <MESSAGE value="Add animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add animation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -737,8 +679,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/screens/cardList.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="173" column="6" lean-forward="false" selection-start-line="173" selection-start-column="6" selection-end-line="173" selection-end-column="6" />
+        <state relative-caret-position="209">
+          <caret line="206" column="6" lean-forward="false" selection-start-line="206" selection-start-column="6" selection-end-line="206" selection-end-column="6" />
           <folding />
         </state>
       </provider>
